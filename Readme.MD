@@ -3,7 +3,7 @@
 
 #### General Information
 
-    we know that we add jenkins.repo and docker.repo to etc/yum.repo/jenkins.repo and the install the jekins directly by giving the command dnf install jenkins -y
+    we know that we add jenkins.repo and docker.repo to etc/yum.repo/jenkins.repo and then install the jekins directly by giving the command dnf install jenkins -y
 
     Similarly, if we want another opensource aplications to be deployed on k8s via heml, we place the helm.repo in the same etc/yum.repo location on a RHEL machine and directly execute the helm installation command
 
