@@ -1,3 +1,6 @@
+####  In this repo we will create the roboshop application using Helm packages
+
+
 #### General Information
 
     we know that we add jenkins.repo and docker.repo to etc/yum.repo/jenkins.repo and the install the jekins directly by giving the command dnf install jenkins -y
