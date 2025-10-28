@@ -22,3 +22,15 @@
     aws-ebs-csi-driver/aws-ebs-csi-driver
 
     Note:- Donot forget to add the EBS Policy at the SG of the nodes which we are using in our cluster as we are creating the EBS dynamically
+
+
+#### Commands which we use for Helm on daily basic
+
+    helm upgrade --install <name> . --> expects Chart.yaml in current directory
+    helm status <name>
+    helm rollback <name> --> 1 revision back
+    helm uninstall <name>
+
+    helm repo add <URL>
+    helm update
+    helm install name <location
